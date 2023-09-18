@@ -6,9 +6,7 @@ Sprint in a concept from [Agile SW development](https://en.wikipedia.org/wiki/Ag
 Project teams will follow a simplified version of agile development to build their projects. A core concept in
 agile development is _a sprint._
 
-|   <img src="./sprints.png">    |
-|:------------------------------:|
-| __Agile Development: Sprints__ | 
+![Agile Dev Example](https://i.ytimg.com/vi/dRfWNKg8ML8/maxresdefault.jpg)
 
 Sprint-0 is an individual sprint that focus on setting up their environments. All students must complete the sprint
 individually. This document is the template for submitting a status report on Sprint-0. 
@@ -21,18 +19,14 @@ We will post submission instructions on Ed for submitting the report.
 - Place a screen capture of your directory below. Display the structure in a terminal window, PyCharm, file explorer
 or any other mechanism.
 
-| <img src="./project-structure.jpg"> |
-|:-----------------------------------:|
-|         __Cloned Project__          | 
+![dir](Pictures/img.png)
 
 ## Execute the Starter Project
 
 You can choose any formats for the screen capture as long as it shows your project executing. My simple example shows
 and execution window and browser side-by-side.
 
-| <img src="./project-execution.jpg"> |
-|:-----------------------------------:|
-|        __Project Execution__        | 
+![running](Pictures/img_1.png)
 
 
 ## Create Your Own GitHub Project
