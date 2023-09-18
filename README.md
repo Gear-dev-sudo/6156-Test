@@ -1,89 +1,54 @@
+# COMSE6156 - Topics in SW Engineering: Cloud Computing<br>Sprint 0 Status Report
 
-# E6156 - Topics in SW Engineering: Cloud Computing<br>First Example Microservice
+## Overview
 
-__Author:__ Donald F. Ferguson
+Sprint in a concept from [Agile SW development](https://en.wikipedia.org/wiki/Agile_software_development).
+Project teams will follow a simplified version of agile development to build their projects. A core concept in
+agile development is _a sprint._
 
-## Local Project Execution
+![Agile Dev Example](https://i.ytimg.com/vi/dRfWNKg8ML8/maxresdefault.jpg)
 
-### Setup
+Sprint-0 is an individual sprint that focus on setting up their environments. All students must complete the sprint
+individually. This document is the template for submitting a status report on Sprint-0. 
+Completing the report is simply taking screenshots and including them
+in the relevant sections of the Markdown document. You will submit a PDF version of the Markdown to GradeScope.
+We will post submission instructions on Ed for submitting the report.
 
-- The first step for local project execution is to create a [virtual environment](https://docs.python.org/3/library/venv.html).
-This is a best practice for developing, testing and running multiple Python applications
-on a single system. There are many [explanatiosn online](https://realpython.com/python-virtual-environments-a-primer/)
-for the benefits of virtual environments.
+## Clone and Modify the Starter Project
 
+- Place a screen capture of your directory below. Display the structure in a terminal window, PyCharm, file explorer
+or any other mechanism.
 
-- There are several approaches to creating a venv. I recommend setting up the environment
-using [PyCharm's built in wizard/tools.](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html)
+![dir](Pictures/img.png)
 
+## Execute the Starter Project
 
-- Activate the virtual environment. You can do this in PyCharm by opening a terminal window inside
-PyCharm. There should be a terminal tab at the bottom of the PyCharm window.
+You can choose any formats for the screen capture as long as it shows your project executing. My simple example shows
+and execution window and browser side-by-side.
 
-
-- In the terminal, type ```pip install -r requirements.txt``` This will install the necessary
-Python packages.
-
-  
-- You can now execute the application by using the ```run``` feature in PyCharm or directly
-from the terminal prompt line by typing ```python main.py```
-
-
-- You will see an initialization (logging) messages followed by the message
-```
- Uvicorn running on http://0.0.0.0:8012 (Press CTRL+C to quit)
-```
+![running](Pictures/img_1.png)
 
 
-### Execution
+## Create Your Own GitHub Project
 
-- Click on ```http://0.0.0.0:8012``` link to open in the browser. You can also copy and past the link.
-You will see something of the form
+Make a copy of the project and create a project in GitHub. Show the project.
 
-| <img src="./browser-screen-1.png"> |
-| :---: |
-| __Simple Execution__ |
-
-
-- Accessing the URL ```http://0.0.0.0:8012/docs``` will navigate to the [OpenAPI](https://www.openapis.org/)
-page/documentation for the application.
+| <img src="./github.jpg"> |
+|:------------------------:|
+|  __Project on GitHub__   | 
 
 
-### Modification
+## Deploy and Test Project on AWS
 
-1. Create a new GitHub project and clone the project.<br><br>
-2. Change the name of the author in ```README.md```<br><br>
-2. Copy the code from this example into the directory for the project.<br><br>
-3. Follow the steps for:
-   1. Creating a virtual environment for your version of the project.
-   2. ```pip``` installing ```requirements.txt```
-   3. Executing and accessing the application.
-4. In ```main.py,``` modify the line ```return {"message": f"Hello {name}"}``` to return
-a message of the form ```return {"message": f"Awesome cloud developer dff9 says Hello {name}"}```
-Replace my uni with yours.
-5. Rerun the application to test.
+Show the information about your VM through the console.
 
+| <img src="./ec2-console.jpg"> |
+|:-----------------------------:|
+|        __AWS Console__        | 
 
-### Publish
+Show the application running in the EC2 terminal and browser.
 
-
-<hr>
-
-__Note:__
-- The default behavior for virtual environment creation is to
-create the venv in the current folder/project.
-- You can create the venv anywhere on the file system.
-- You do not want to venv pushed to GitHub. So, if the venv is inside the
-project, remove the directory from the set of files that will be pushed.
-The easiest way is to add to a [.gitignore file.](https://git-scm.com/docs/gitignore)
-
-<hr>
-
-<br>
-
-- Commit and push your application to the GitHub repository.
-
-
-- You have completed the first part of the initial assignment.
-
+| <img src="./aws-running.jpg"> |
+|:-----------------------------:|
+|      __Service Running__      | 
 
