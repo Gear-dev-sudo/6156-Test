@@ -36,7 +36,7 @@ Make a copy of the project and create a project in GitHub. Show the project.
 | <img src="./github.jpg"> |
 |:------------------------:|
 |  __Project on GitHub__   | 
-
+![git](Pictures/Git Scrshot.png)
 
 ## Deploy and Test Project on AWS
 
